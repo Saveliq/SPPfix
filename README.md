@@ -17,25 +17,30 @@
 
 Создайте виртуальное окружение и установите зависимости:
 
-sh
+```sh
 python -m venv venv
 source venv/bin/activate  # для Linux/macOS
 venv\Scripts\activate  # для Windows
 pip install -r requirements.txt
-### 2. Запуск скрипта python run_spp.py
+### 2. Запуск скрипта python
+```sh
+run_spp.py
 
 ## Сборка .exe
 
-Для создания исполняемого файла (`.exe`) используйте `pyinstaller`: 
-#```pip install pyinstaller```
-#```pyinstaller --onefile --noconsole run_spp.py```
+Для создания исполняемого файла (`.exe`) используйте `pyinstaller`:
+```sh
+pip install pyinstaller
+pyinstaller --onefile --noconsole run_spp.py
 
 Готовый `.exe` файл появится в папке `dist`.
 
 ## Возможные ошибки
 
 1. **Ошибка "pyinstaller: command not found"**  
-   Убедитесь, что `pyinstaller` установлен в виртуальном окружении:  pip install pyinstaller
+   Убедитесь, что `pyinstaller` установлен в виртуальном окружении:
+```sh
+pip install pyinstaller
 
 2. **Ошибка "Файл не найден" при распаковке ISO**  
 Проверьте, содержит ли путь к файлу пробелы. Если да, попробуйте указать путь в кавычках.
