@@ -19,8 +19,15 @@
 
 ```sh
 python -m venv venv
-source venv/bin/activate  # для Linux/macOS
-venv\Scripts\activate  # для Windows
+```
+для Linux/macOS
+```sh
+source venv/bin/activate
+для Windows
+```sh
+venv\Scripts\activate
+```
+```sh
 pip install -r requirements.txt
 ```
 ### 2. Запуск скрипта python
