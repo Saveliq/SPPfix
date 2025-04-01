@@ -27,8 +27,8 @@ pip install -r requirements.txt
 ## Сборка .exe
 
 Для создания исполняемого файла (`.exe`) используйте `pyinstaller`: 
-```pip install pyinstaller```
-```pyinstaller --onefile --noconsole run_spp.py```
+#```pip install pyinstaller```
+#```pyinstaller --onefile --noconsole run_spp.py```
 
 Готовый `.exe` файл появится в папке `dist`.
 
