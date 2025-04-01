@@ -25,14 +25,14 @@ pip install -r requirements.txt
 ### 2. Запуск скрипта python
 ```sh
 run_spp.py
-
+```
 ## Сборка .exe
 
 Для создания исполняемого файла (`.exe`) используйте `pyinstaller`:
 ```sh
 pip install pyinstaller
 pyinstaller --onefile --noconsole run_spp.py
-
+```
 Готовый `.exe` файл появится в папке `dist`.
 
 ## Возможные ошибки
@@ -41,7 +41,7 @@ pyinstaller --onefile --noconsole run_spp.py
    Убедитесь, что `pyinstaller` установлен в виртуальном окружении:
 ```sh
 pip install pyinstaller
-
+```
 2. **Ошибка "Файл не найден" при распаковке ISO**  
 Проверьте, содержит ли путь к файлу пробелы. Если да, попробуйте указать путь в кавычках.
 
