@@ -23,8 +23,9 @@ python -m venv venv
 для Linux/macOS
 ```sh
 source venv/bin/activate
-для Windows
 ```
+для Windows
+
 ```sh
 venv\Scripts\activate
 ```
